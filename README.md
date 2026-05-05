@@ -20,6 +20,12 @@ End-to-end QA automation project simulating real-world testing of an E-Commerce 
 - Reduced manual testing effort via CI/CD automation
 - Improved test consistency and execution speed
 
+## 💼 Business Impact
+- Simulated real e-commerce user journey
+- Automated API validation using CI/CD
+- Reduced manual testing effort
+- Improved test reliability and consistency
+
 ## 🛒 Test Scenario Flow
 1. User login
 2. Add product to cart
@@ -30,8 +36,8 @@ End-to-end QA automation project simulating real-world testing of an E-Commerce 
 1. User login
 2. Search product
 3. Add product to cart
-4. Proceed to checkout
-5. Validate transaction response
+4. Checkout process
+5. Validate response
 
 ## ⚙️ Automation
 - Postman + Newman
