@@ -25,7 +25,8 @@
     "method": "GET",
     "url": "https://postman-echo.com/get"
    }
-pm.test("Status code is 200", function () {
+{
+ pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });  }
  ]
