@@ -8,9 +8,35 @@ End-to-end QA automation project simulating real-world testing of an E-Commerce 
 - Cart API
 - Checkout API
 
+## 💼 Business Impact
+- Simulated real user journey in e-commerce system (login → cart → checkout)
+- Automated API testing using Newman
+- Reduced manual testing effort with CI/CD pipeline
+- Ensured system reliability through automated validation
+
+## 🛒 Test Scenario Flow
+1. User login
+2. Add product to cart
+3. Proceed to checkout
+4. Validate API response and transaction flow
+
 ## ⚙️ Automation
 - Postman + Newman
 - CI/CD via GitHub Actions
+
+## 📸 Automation Proof
+
+### CI/CD Pipeline
+![GitHub Actions](screenshots/github-actions.png)
+
+### Automation Report
+![Newman Report](screenshots/newman-report.png)
+
+## 🧰 Tech Stack
+- API Testing: Postman
+- Automation: Newman
+- CI/CD: GitHub Actions
+- Runtime: Node.js
 
 ## 📊 Result
 Automation runs on every push and generates report artifact.
